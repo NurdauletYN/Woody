@@ -20,6 +20,7 @@
 		CE7E91E628D1DA6B00C0EA35 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91E528D1DA6B00C0EA35 /* CircleBackground.swift */; };
 		CE7E91E828D1DB5000C0EA35 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91E728D1DB5000C0EA35 /* CustomSearchBar.swift */; };
 		CE7E91EA28D1DD3B00C0EA35 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91E928D1DD3B00C0EA35 /* ScrollSection.swift */; };
+		CE7E91EC28D1F1A900C0EA35 /* FlyerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91EB28D1F1A900C0EA35 /* FlyerSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		CE7E91E528D1DA6B00C0EA35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		CE7E91E728D1DB5000C0EA35 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		CE7E91E928D1DD3B00C0EA35 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		CE7E91EB28D1F1A900C0EA35 /* FlyerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				CE7E91E528D1DA6B00C0EA35 /* CircleBackground.swift */,
 				CE7E91E728D1DB5000C0EA35 /* CustomSearchBar.swift */,
 				CE7E91E928D1DD3B00C0EA35 /* ScrollSection.swift */,
+				CE7E91EB28D1F1A900C0EA35 /* FlyerSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7E91EC28D1F1A900C0EA35 /* FlyerSection.swift in Sources */,
 				CE7E91E828D1DB5000C0EA35 /* CustomSearchBar.swift in Sources */,
 				CE7E91DB28D1C73000C0EA35 /* TabBar.swift in Sources */,
 				CE7E91EA28D1DD3B00C0EA35 /* ScrollSection.swift in Sources */,

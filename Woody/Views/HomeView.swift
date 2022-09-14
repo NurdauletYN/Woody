@@ -10,6 +10,8 @@ import SwiftUI
 struct HomeView: View {
     @State var animate = false
     
+    @State var flayer1: [String] = ["flyer5", "flyer6", "flyer7", "flyer8", "flyer9", "flyer10", "flayer11"]
+    
     var body: some View {
         ZStack{
             CircleBackground(color: Color("greenCircle"))
@@ -36,6 +38,12 @@ struct HomeView: View {
                         .padding(EdgeInsets(top: 30, leading: 20, bottom: 20, trailing: 20))
                     
                     ScrollSection()
+                    
+                    FlyerSection()
+                        .padding(.top)
+                    
+                    FlyerSection(title: "Movies", flyer: flayer1)
+                        .padding(.top)
                 }
             }
         }
