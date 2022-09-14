@@ -17,6 +17,9 @@
 		CE7E91DB28D1C73000C0EA35 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91DA28D1C73000C0EA35 /* TabBar.swift */; };
 		CE7E91E028D1C99700C0EA35 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91DF28D1C99700C0EA35 /* TabData.swift */; };
 		CE7E91E328D1CACB00C0EA35 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91E228D1CACB00C0EA35 /* HomeView.swift */; };
+		CE7E91E628D1DA6B00C0EA35 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91E528D1DA6B00C0EA35 /* CircleBackground.swift */; };
+		CE7E91E828D1DB5000C0EA35 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91E728D1DB5000C0EA35 /* CustomSearchBar.swift */; };
+		CE7E91EA28D1DD3B00C0EA35 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E91E928D1DD3B00C0EA35 /* ScrollSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		CE7E91DA28D1C73000C0EA35 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		CE7E91DF28D1C99700C0EA35 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		CE7E91E228D1CACB00C0EA35 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE7E91E528D1DA6B00C0EA35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		CE7E91E728D1DB5000C0EA35 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		CE7E91E928D1DD3B00C0EA35 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 		CE7E91AF28D1C1E800C0EA35 /* Woody */ = {
 			isa = PBXGroup;
 			children = (
+				CE7E91E428D1DA5600C0EA35 /* UI */,
 				CE7E91E128D1CAA100C0EA35 /* Views */,
 				CE7E91DC28D1C95F00C0EA35 /* Data */,
 				CE7E91B028D1C1E800C0EA35 /* WoodyApp.swift */,
@@ -150,6 +157,16 @@
 				CE7E91E228D1CACB00C0EA35 /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CE7E91E428D1DA5600C0EA35 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E91E528D1DA6B00C0EA35 /* CircleBackground.swift */,
+				CE7E91E728D1DB5000C0EA35 /* CustomSearchBar.swift */,
+				CE7E91E928D1DD3B00C0EA35 /* ScrollSection.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7E91E828D1DB5000C0EA35 /* CustomSearchBar.swift in Sources */,
 				CE7E91DB28D1C73000C0EA35 /* TabBar.swift in Sources */,
+				CE7E91EA28D1DD3B00C0EA35 /* ScrollSection.swift in Sources */,
 				CE7E91E028D1C99700C0EA35 /* TabData.swift in Sources */,
 				CE7E91B328D1C1E800C0EA35 /* ContentView.swift in Sources */,
+				CE7E91E628D1DA6B00C0EA35 /* CircleBackground.swift in Sources */,
 				CE7E91E328D1CACB00C0EA35 /* HomeView.swift in Sources */,
 				CE7E91B128D1C1E800C0EA35 /* WoodyApp.swift in Sources */,
 			);
